@@ -1,9 +1,20 @@
 @import "../../common/color.scss";
-.movie-list {
+
+.movie-list,
+.show-list {
   margin: 20px 0px;
   h2 {
-    color: $font-secondary;
+    color: $font-secondary; /* Make sure $font-secondary is defined */
     margin-bottom: 10px;
     font-weight: 400;
   }
 }
+
+// .movie-container {
+//   display: grid;
+//   grid-template-columns: repeat(
+//     auto-fill,
+//     minmax(220px, 1fr)
+//   ); /* Corrected column definition */
+//   grid-gap: 15px;
+// }
